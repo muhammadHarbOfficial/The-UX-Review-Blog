@@ -1,0 +1,34 @@
+
+@media (max-width: 991px) {
+    header nav .mega-menu {
+        position: absolute;
+        display: none;
+        right: 3%;
+        top: 100%;
+        flex-direction: column;
+        flex-basis: 100%;
+        background-color: #fff;
+        padding: 20px;
+        border: 2px solid #000;
+    }
+
+    header nav .mega-menu .links {
+        flex-direction: column;
+    }
+
+    header nav .subscribe {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:992px) {
+    header nav .mega-menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    header nav .menu {
+        display: none;
+    }
+}
