@@ -2,7 +2,6 @@
 @media (max-width: 991px) {
     header nav .mega-menu {
         position: absolute;
-        display: none;
         right: 3%;
         top: 100%;
         flex-direction: column;
@@ -26,11 +25,32 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        min-width: 60%;
+        min-width: 65%;
         margin-inline-start: auto;
     }
 
     header nav .menu {
         display: none;
     }
+
+    .hero .wrapper .inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    }
+
+    .hero .wrapper .inner .right-side {
+        width: 45%;
+        padding-inline: 15px;
+        margin-top: 5%;
+    }
+
+    .hero .wrapper .inner .right-side .img-wrapper {
+        transform: rotate(6deg);
+        -webkit-transform: rotate(6deg);
+        -moz-transform: rotate(6deg);
+        -ms-transform: rotate(6deg);
+        -o-transform: rotate(6deg);
+    }
+
 }
