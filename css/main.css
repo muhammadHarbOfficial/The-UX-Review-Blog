@@ -95,8 +95,8 @@ header nav .logo-text span {
 header nav .mega-menu {
     display: none;
     align-items: center;
-    flex-basis: 70%;
 }
+
 header nav .links {
     display: flex;
     justify-content: space-between;
@@ -138,6 +138,7 @@ header nav .subscribe {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     font-size: 14px;
+    margin-left: 10px;
 }
 
 header nav button.menu {

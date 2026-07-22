@@ -26,6 +26,8 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        min-width: 60%;
+        margin-inline-start: auto;
     }
 
     header nav .menu {
