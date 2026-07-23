@@ -124,10 +124,6 @@
         width: 25%;
     }
 
-    .authors .cards {
-
-    }
-
     .authors .card {
         width: calc((100% - 4%) / 3)
     }

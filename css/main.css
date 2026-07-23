@@ -777,7 +777,7 @@ header nav:has(button.menu:focus) .mega-menu {
 }
 
 .authors .cards {
-    margin-block: 30px;
+    margin-block-start: 30px;
 }
 
 .authors .card {
