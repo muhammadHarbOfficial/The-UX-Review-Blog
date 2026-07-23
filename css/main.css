@@ -56,6 +56,30 @@ button {
     margin-inline: auto;;
 }
 
+.main-heading {
+    text-align: center;
+}
+
+.main-heading h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.main-heading p {
+    font-weight: 700;
+    margin-block-start: 10px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #525252;
+}
+
+.main-heading .line {
+    display: inline-block;
+    width: 130px;
+    height: 8px;
+    background-color: #111;
+}
+
 body {
     font-family: 'Exo', sans-serif;
     min-height: 5000px;
@@ -747,28 +771,7 @@ header nav:has(button.menu:focus) .mega-menu {
     position: relative;
 }
 
-.main-heading {
-    text-align: center;
-}
-
-.main-heading h2 {
-    font-size: 45px;
-    font-weight: 900;
-}
-
-.main-heading p {
-    font-weight: 700;
-    margin-block-start: 10px;
-    margin-bottom: 8px;
-    font-size: 20px;
-    color: #525252;
-}
-
-.main-heading .line {
-    display: inline-block;
-    width: 130px;
-    height: 8px;
-    background-color: #111;
+.authors .line {
     transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
