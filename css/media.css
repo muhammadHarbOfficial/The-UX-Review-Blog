@@ -127,4 +127,10 @@
     .authors .card {
         width: calc((100% - 4%) / 3)
     }
+
+    .community .wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px
+    }
 }
