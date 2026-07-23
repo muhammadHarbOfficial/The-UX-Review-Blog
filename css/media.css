@@ -1,4 +1,6 @@
 
+
+
 @media (max-width: 991px) {
     header nav .mega-menu {
         position: absolute;
@@ -17,6 +19,12 @@
 
     header nav .subscribe {
         margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .articles-section .articles .card-body .post-info span {
+        width: 50%;
     }
 }
 
@@ -53,4 +61,56 @@
         -o-transform: rotate(6deg);
     }
 
+    .hero .wrapper .inner .right-side .img-wrapper:hover {
+        transform: rotate(6deg) translate(-3px, -3px);
+        -webkit-transform: rotate(6deg) translate(-3px, -3px);
+        -moz-transform: rotate(6deg) translate(-3px, -3px);
+        -ms-transform: rotate(6deg) translate(-3px, -3px);
+        -o-transform: rotate(6deg) translate(-3px, -3px);
+    }
+
+    .articles-section .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .articles-section .wrapper .articles{
+        width: 65%;
+    }
+
+    .articles-section .wrapper .menus {
+        width: 33%;
+        position: relative;
+    }
+
+    .articles-section .wrapper .menus .menus-wrapper {
+        position: sticky;
+        top: 60px;
+    }
+
+    
+    /* .articles-section .wrapper .menus .trending {
+        position: sticky;
+        top: 70px;
+        z-index: 100;
+        height: 350px;
+    } */
+
+    /* .articles-section .wrapper .menus .categoires {
+        position: sticky;
+        top:300px;
+        z-index: 99;
+    } */
+
+
+    .articles-section .articles .card-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .articles-section .articles .card-body .post-info span {
+        width: 25%;
+    }
 }

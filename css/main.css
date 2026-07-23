@@ -308,12 +308,26 @@ header nav:has(button.menu:focus) .mega-menu {
     align-items: center;
     border: 2px solid #111;
     box-shadow: 6px 6px #111;
+    transition: transform 0.3s linear;
+    -webkit-transition: transform 0.3s linear;
+    -moz-transition: transform 0.3s linear;
+    -ms-transition: transform 0.3s linear;
+    -o-transition: transform 0.3s linear;
 }
 
 .hero .wrapper .inner .right-side .img-wrapper img {
     object-fit: cover;
     object-position: center;
     width: 100%;
+    
+}
+
+.hero .wrapper .inner .right-side .img-wrapper:hover {
+    transform: translate(-3px, -3px);
+    -webkit-transform: translate(-3px, -3px);
+    -moz-transform: translate(-3px, -3px);
+    -ms-transform: translate(-3px, -3px);
+    -o-transform: translate(-3px, -3px);
 }
 
 .hero .wrapper .inner .right-side .feature {
@@ -334,3 +348,356 @@ header nav:has(button.menu:focus) .mega-menu {
 
 
 /*? End Hero Section */
+
+/*? Start Articles Section */
+
+.articles-section {
+    background-color: #F5F5F5;
+    padding-block: 60px;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+}
+
+.articles-section .articles .latest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block-end: 30px;
+}
+
+.articles-section .articles .latest h2 {
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 1px 1px #111;
+}
+
+
+.articles-section .articles .latest .fresh {
+    padding: 10px 15px;
+    background-color: #111;
+    color: #fff;
+    font-weight: 700;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+}
+
+.articles-section .articles .card {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    margin-block: 30px;
+}
+
+.articles-section .articles .card-wrapper,
+.articles-section .menus .trending-wrapper,
+.articles-section .menus .categories-wrapper {
+    border: 3px solid #111;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.articles-section .articles .card:hover {
+    transform: translate(-5px, -5px);
+    -webkit-transform: translate(-5px, -5px);
+    -moz-transform: translate(-5px, -5px);
+    -ms-transform: translate(-5px, -5px);
+    -o-transform: translate(-5px, -5px);
+    box-shadow: 6px 6px #111;
+}
+
+
+.articles-section .articles .card-img {
+    position: relative;
+    width: 200px;
+    height: 140px;
+    border: 2px solid #111;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.articles-section .articles .card-img img {
+    min-height: 100%;
+}
+
+.articles-section .articles .card-img .type {
+    position: absolute;
+    top: -7%;
+    right: -7%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 12px;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    border: 2px solid #111;
+}
+
+.articles-section .articles .card-img .type.red {
+    background-color: #FA2C36;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+}
+
+.articles-section .articles .card-img .type.blue {
+    background-color: #2B7FFF;
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+}
+
+.articles-section .articles .card-img .type.purple {
+    background-color: #AD46FF;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.articles-section .articles .card-body .category {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 4px 14px;
+    border: 2px solid #111;
+    display: inline-block;
+
+}
+
+.articles-section .articles .card-body .color-1 {
+    background-color: #FFDF20;
+    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+}
+
+.articles-section .articles .card-body .color-2 {
+    background-color: #7BF1A8;
+    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+}
+
+.articles-section .articles .card-body .color-3 {
+    background-color: #FEA4D6;
+    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+}
+
+.articles-section .articles .card-body h3 {
+    font-size: 24px;
+    margin-block: 15px;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+}
+
+.articles-section .articles .card:hover .card-body .red {
+    color: #E7000B;
+}
+
+.articles-section .articles .card:hover .card-body .blue {
+    color: #2B7FFF;
+}
+
+.articles-section .articles .card:hover .card-body .purple {
+    color: #AD46FF;
+}
+
+.articles-section .articles .card-body p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.articles-section .articles .card-body .post-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles-section .articles .card-body .post-info span {
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.articles-section .articles .card-body .post-info .lovers {
+    color: #E7000B;
+}
+
+.articles-section .articles .btns {
+    text-align: center;
+    padding-block-start: 30px;
+}
+
+.articles-section .articles .btns button {
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #111;
+    border: none;
+    box-shadow: 6px 6px #111;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    margin-bottom: 30px
+}
+
+.articles-section .articles .btns button:hover {
+    box-shadow: 0 0;
+    transform: translate(6px, 6px);
+}
+
+.articles-section .menus .trending {
+    margin-bottom: 30px;
+}
+
+.articles-section .menus .trending-wrapper, 
+.articles-section .menus .categories-wrapper {
+    box-shadow: 5px 5px #111;
+    padding: 20px;
+}
+
+.articles-section .menus .trending-wrapper h3,
+.articles-section .menus .categories-wrapper h3 {
+    font-size: 26px;
+    font-weight: 900;
+    margin-block-end: 25px;
+}
+
+.articles-section .menus .trending-wrapper .trending-list li {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.articles-section .menus .trending-wrapper .trending-list li span.num {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.articles-section .menus .trending-wrapper .trending-list li span.num.red {
+        color: #FA2C36;
+}
+
+.articles-section .menus .trending-wrapper .trending-list li span.num.blue {
+        color: #2B7FFF;
+}
+
+.articles-section .menus .trending-wrapper .trending-list li span.num.purple {
+        color: #AD47FF;
+}
+
+.articles-section .menus .trending-wrapper .trending-info span.name {
+    font-size: 18px;
+    font-weight: 700;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+}
+
+.articles-section .menus .trending-wrapper li:hover .trending-info span.name.red {
+    color: #FA2C36
+}
+
+.articles-section .menus .trending-wrapper li:hover .trending-info span.name.blue {
+    color: #2B7FFF;
+}
+
+.articles-section .menus .trending-wrapper li:hover .trending-info span.name.purple {
+    color: #AD47FF;
+}
+
+.articles-section .menus .trending-wrapper .trending-info .stats {
+    margin-top: 5px;
+    color: #6D6D6D;
+    font-size: 14px;
+}
+
+
+.articles-section .menus .categories-wrapper .categories-list li {
+    border: 2px solid #111;
+    padding: 15px;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    margin-bottom: 15px;
+}
+
+.articles-section .menus .categories-wrapper .categories-list li:hover {
+    box-shadow: 3px 3px #111;
+    transform: translate(-3px, -3px);
+    -webkit-transform: translate(-3px, -3px);
+    -moz-transform: translate(-3px, -3px);
+    -ms-transform: translate(-3px, -3px);
+    -o-transform: translate(-3px, -3px);
+}
+
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-1 {
+    background-color: #FCF9C4;
+}
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-1:hover {
+    background-color: #FFDF20;
+}
+
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-2 {
+    background-color: #E5FBE7;
+}
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-2:hover {
+    background-color: #7BF1A8;
+}
+
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-3 {
+    background-color: #F6E8F3;
+}
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-3:hover {
+    background-color: #FEA4D6;
+}
+
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-4 {
+    background-color: #E0EAFE;
+}
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-4:hover {
+    background-color: #8DC5FF;
+}
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-5 {
+    background-color: #F0E8FE;
+}
+.articles-section .menus .categories-wrapper .categories-list li.color-cat-5:hover {
+    background-color: #D9B2FF;
+}
+
+
+/*? End Articles Section */
