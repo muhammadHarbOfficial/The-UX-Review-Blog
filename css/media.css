@@ -26,6 +26,16 @@
     .articles-section .articles .card-body .post-info span {
         width: 50%;
     }
+
+    .authors .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .authors .card {
+        width: calc((100% - 3%) / 2)
+    }
 }
 
 @media (min-width:992px) {
@@ -112,5 +122,13 @@
 
     .articles-section .articles .card-body .post-info span {
         width: 25%;
+    }
+
+    .authors .cards {
+
+    }
+
+    .authors .card {
+        width: calc((100% - 4%) / 3)
     }
 }
