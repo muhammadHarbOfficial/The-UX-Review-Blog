@@ -1,6 +1,3 @@
-
-
-
 @media (max-width: 991px) {
     header nav .mega-menu {
         position: absolute;
@@ -20,6 +17,19 @@
     header nav .subscribe {
         margin-top: 30px;
     }
+
+    footer .copyright-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 10px;;
+    }
+
+    footer .copyright-wrapper p {
+        flex-basis: 100%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -36,6 +46,30 @@
     .authors .card {
         width: calc((100% - 3%) / 2)
     }
+
+    .community .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    footer .wrapper .footer-logo {
+        flex-basis: 100%;
+    }
+
+    footer .wrapper .categories {
+        flex-basis: 20%;
+    }
+
+    footer .wrapper .newsletter {
+        flex-basis: 75%;
+    }
+    
 }
 
 @media (min-width:992px) {
@@ -98,21 +132,6 @@
         top: 60px;
     }
 
-    
-    /* .articles-section .wrapper .menus .trending {
-        position: sticky;
-        top: 70px;
-        z-index: 100;
-        height: 350px;
-    } */
-
-    /* .articles-section .wrapper .menus .categoires {
-        position: sticky;
-        top:300px;
-        z-index: 99;
-    } */
-
-
     .articles-section .articles .card-wrapper {
         display: flex;
         justify-content: space-between;
@@ -131,6 +150,24 @@
     .community .wrapper {
         display: flex;
         justify-content: space-between;
-        gap: 30px
+        gap: 20px;
+    }
+
+    footer .wrapper .footer-logo {
+        flex-basis: 40%;
+    }
+
+    footer .wrapper .categories {
+        flex-basis: 20%;
+    }
+
+    footer .wrapper .newsletter {
+        flex-basis: 35%;
+    }
+
+    footer .copyright-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
